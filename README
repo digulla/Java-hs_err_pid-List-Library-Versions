@@ -1,0 +1,14 @@
+These scripts create a list of versions of all the libraries which were
+loaded in a Java program when it crashed.
+
+> ./list-versions-debian.sh hs_err_pid28553.log
+dpkg-query: no path found matching pattern /usr/lib/jvm/java-6-sun-1.6.0.24/jre/bin/java.
+dpkg-query: no path found matching pattern /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64/jli/libjli.so.
+dpkg-query: no path found matching pattern /usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64/libjava.so.                                                                                                         ...
+gtk2-engines-qtcurve  1.8.5-1
+gvfs  1.8.0-0ubuntu2
+libasound2  1.0.24.1-0ubuntu5
+libatk1.0-0  2.0.0-0ubuntu1
+libcairo2  1.10.2-2ubuntu2
+libcanberra0  0.28-0ubuntu3
+...
